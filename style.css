@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+.sidebar{
+    background-color: black;
+    height: 100vh;
+    width: max(50px,10vh);
+}
