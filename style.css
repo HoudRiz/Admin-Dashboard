@@ -2,6 +2,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
+.page{
+    display: flex;
+}
 ul{
     padding: 0px;
     margin: 0px;
@@ -16,4 +19,16 @@ li{
     background-color: black;
     height: 100vh;
     width: max(50px,10vh);
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navigation{
+    display: block;
+    background-color: pink;
+    height: 150px;
+    width: 100%;
 }
