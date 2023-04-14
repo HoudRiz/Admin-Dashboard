@@ -77,7 +77,11 @@ svg{
 }
 
 .navigation{
-    display: block;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "buttons profile"
+                         "input profile";
     background-color: var(--nav-bg);
     height: 150px;
     width: 100%;
@@ -116,4 +120,40 @@ svg{
     -webkit-box-shadow: 0 0 10px 2px var(--box-shadow);
         box-shadow: 0 0 10px 2px var(--box-shadow);
 
+}
+
+input{
+    grid-area:input ;
+    padding: 20px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 0 10px var(--box-shadow) inset;
+    box-shadow: 0 0 10px var(--box-shadow) inset;
+    border: none;
+
+}
+.buttons{
+    grid-area: buttons;
+    display: flex;
+    gap: 10px;
+}
+button{
+    padding: 10px 30px;
+    background-color: var(--sidebar-bg);
+    color: var(--font-color);
+    border: none;
+    border-radius: 20px;
+
+
+}
+.profile{
+    grid-area: profile;
+}
+input,
+.buttons{
+    margin: auto 140px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
