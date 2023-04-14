@@ -152,6 +152,16 @@ input,
 .buttons{
     margin: auto 140px;
 }
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.name{
+    font-size: 40px;
+    color: var(--font-color);
+}
 img{
     width: 100px;
     height: 100px;
