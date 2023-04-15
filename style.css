@@ -97,7 +97,7 @@ svg{
 .content{
     margin-left: 100px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr minmax(400px,1fr);
 }
 
 .info-cards{
@@ -107,7 +107,7 @@ svg{
     gap: 40px;
 }
 .card-content{
-    margin-left:20px;
+    margin:20px;
     font-size: 20px;
 }
 .side-cards{
