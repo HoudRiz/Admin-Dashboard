@@ -148,7 +148,7 @@ svg{
     display: flex;
     align-items: center;
     gap: 5%;
-    margin: 10px;
+    margin: 0px 10px;
     border-bottom: 1px solid var(--box-shadow);
 }
 .info,
